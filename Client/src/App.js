@@ -29,7 +29,7 @@ function App() {
       access && navigate('/home');
 
     } catch (error) {
-      console.log(errr.massage)
+      console.log(error.massage)
     }
   }
 
